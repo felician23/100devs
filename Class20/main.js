@@ -1,11 +1,15 @@
-//Create a function that takes in an array of numbers. Return a new array containing every even number from the original array (do not use map or filter)
+//Create a function that takes in an array of numbers. Multiply each number together and alert the product. 
 function takesInArray(array) {
-    let myArr = [];
-    array.forEach((item, i) => {
-        if(item % 2 === 0) {
-            myArr.push(item);
-        }
-    });
-    return myArr
+    let sum = 1
+    for(let i = 0; i < array.length; i++) {
+        alert(sum *= array[i])
+    }
 }
+takesInArray([1,2,3,4,5]);
 
+// forEach way
+
+let sum = 1
+arr.forEach((item, i) => {
+    sum *= item
+});
